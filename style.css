@@ -217,3 +217,107 @@
  .mobile-editor{
     display: none;
 }
+
+.services{
+    width: 100%;
+    padding: 8rem 10rem;
+    position: relative;
+    background: hsl(237, 17%, 21%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top-right-radius: 6rem;
+    border-bottom-left-radius: 6rem;
+}
+
+.services-rightcolumn{
+    flex-basis: 50%;
+}
+
+ .services-rightcolumn h4{
+    font-size: 2.3rem;
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 2rem;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 600;
+}
+
+ .services-rightcolumn p{
+    font-size: 1.1rem;
+    color: hsl(0, 0%, 100%);
+    font-family: 'Overpass', sans-serif;
+    font-weight: 300;
+    line-height: 1.9rem;
+}
+
+ .services-leftcolumn{
+    flex-basis: 40%;
+    position: relative;
+    background-image: url(images/illustration-phones.svg);
+    background-position: center;
+    background-size: cover;
+}
+
+.phone{
+    position: absolute;
+    left: -5rem;
+    top: -16rem;
+    z-index: 3;
+}
+
+ .circle-pattern{
+    position: absolute;
+    left: -25rem;
+    top: -50rem;
+    z-index: 1;
+    width: 250%;
+}
+.features{
+    width: 100%;
+    position: relative;
+    padding: 15rem 10rem 15rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: hsl(0, 26%, 96%);
+    z-index: 2;
+}
+
+.features-leftcolumn{
+    flex-basis: 50%;
+    position: relative;
+}
+
+.desktop-illustration{
+    width: 150%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: -16rem;
+}
+
+.mobile-illustration{
+    display: none;
+}
+
+ .features-rightcolumn{
+    flex-basis: 40%;
+    position: relative;
+}
+
+ .features-rightcolumn h5{
+    font-size: 1.8rem;
+    color: hsl(208, 49%, 24%);
+    margin-bottom: 1.5rem;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 700;
+}
+
+ .features-rightcolumn p{
+    font-size: .95rem;
+    color: hsl(208, 49%, 24%);
+    margin-bottom: 3rem;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 300;
+    line-height: 2.1rem;
+}
